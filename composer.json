@@ -1,0 +1,24 @@
+{
+  "name": "user/smtp",
+  "description": "SMTP class",
+  "type": "library",
+  "license": "mit",
+  "authors": [
+    {
+      "name": "Emilio Bravo",
+      "email": "hsardrake@gmail.com"
+    }
+  ],
+  "minimum-stability": "beta",
+  "require": {
+    "php": ">=7"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ],
+    "psr-4": {
+      "Bravo\\": "src/"
+    }
+  }
+}
